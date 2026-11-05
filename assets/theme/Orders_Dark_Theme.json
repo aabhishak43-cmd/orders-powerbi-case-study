@@ -1,0 +1,29 @@
+{
+  "name": "Global Orders Dark",
+  "dataColors": ["#00C2FF", "#F59E0B", "#7C5CFF", "#22D3A6", "#F472B6", "#60A5FA", "#FB923C", "#A3E635"],
+  "background": "#0C1836",
+  "foreground": "#E2E8F0",
+  "tableAccent": "#00C2FF",
+  "good": "#22D3A6",
+  "neutral": "#F59E0B",
+  "bad": "#F87171",
+  "maximum": "#00C2FF",
+  "center": "#F59E0B",
+  "minimum": "#7C5CFF",
+  "textClasses": {
+    "callout": {"fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF"},
+    "title": {"fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#E2E8F0"},
+    "header": {"fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#E2E8F0"},
+    "label": {"fontSize": 10, "fontFace": "Segoe UI", "color": "#CBD5E1"}
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{"show": true, "color": {"solid": {"color": "#0C1836"}}, "transparency": 25}],
+        "border": [{"show": true, "color": {"solid": {"color": "#2B4A8B"}}, "radius": 14}],
+        "dropShadow": [{"show": true}],
+        "title": [{"show": true, "fontColor": {"solid": {"color": "#E2E8F0"}}, "fontSize": 12}]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temp/lock files
+~$*.xlsx
+~$*.docx
+*.tmp
+
+# Power BI local/cache files
+.pbi/
+*.pbix.bak
+*.pbi_autosave
+**/localSettings.json
+**/cache.abf
